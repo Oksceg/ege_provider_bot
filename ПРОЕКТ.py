@@ -102,7 +102,7 @@ def parse_task(task_html_source):
 Бот уже сейчас существует и даже на что-то отвечает, но здесь не будет происходить обновлений до того момента,
 пока не будет осуществлян полный парсинг базовой математики"""
 
-bot = telebot.TeleBot('1011156027:AAElJxSe9oD2-GNkMiBG5x8jEIQmFrJRZCY')
+bot = telebot.TeleBot('') #здесь токен от бота
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
